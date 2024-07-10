@@ -57,7 +57,8 @@ export function createAboutSection() {
 
   const img = document.createElement('img')
   img.className = 'about__img lazy loading'
-  img.src = './public/hehe.jpeg'
+  img.src =
+    'https://res.cloudinary.com/dwajahfhr/image/upload/v1720625690/domj9euwrf2spxjlmz9k.jpg'
   img.dataset.src = '/about.jpg'
   img.alt = 'Profile picture'
 

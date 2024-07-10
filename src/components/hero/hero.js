@@ -9,7 +9,8 @@ export function createHero() {
 
   const img = document.createElement('img')
   img.className = 'hero__img'
-  img.src = '../public/profile.png'
+  img.src =
+    'https://res.cloudinary.com/dwajahfhr/image/upload/v1720625710/Captura_de_pantalla_2024-05-21_000306_fgtajz.png'
   img.alt = 'Profile picture'
 
   const h2 = document.createElement('h2')
