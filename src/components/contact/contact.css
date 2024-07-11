@@ -5,7 +5,8 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
-  margin-top: 2em;
+  margin-top: 20em;
+  z-index: 0;
 }
 
 .contact__title {
@@ -16,7 +17,7 @@
 
 .contact__description {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  color: var(--clr-light);
   max-width: 60ch;
 }
 
