@@ -32,7 +32,7 @@ export function headerCreate() {
   const resumeLi = document.createElement('li')
   const resumeA = document.createElement('a')
   resumeA.className = 'header_resume btn'
-  resumeA.href = '#contact'
+  resumeA.href = '#'
   resumeA.textContent = 'Resume'
   resumeLi.appendChild(resumeA)
   ul.appendChild(resumeLi)

@@ -1,0 +1,33 @@
+#studies-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10em;
+}
+
+.studies-content {
+  margin-top: 10em;
+}
+
+.toggle-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.description-studies {
+  max-width: 60ch;
+  font-size: var(--size-xl);
+  color: var(--clr-light);
+  margin: 1rem auto;
+}
+
+@media (max-width: 768px) {
+  .description-studies {
+    font-size: var(--size-l);
+  }
+  .studies-btn {
+    font-size: var(--size-m);
+  }
+}
